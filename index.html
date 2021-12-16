@@ -5,175 +5,223 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Inicio - Juan P Niño C.</title>
 </head>
 
 <!--Inicia body-->
 
 <body>
-    <!-- Inicia navbar-->
-    <nav ">
-        <img src="img/Logo.png " height="60px " alt="Logo ">
-        <ul>
-            <li>
-                <a href="https://github.com/Jupanica " style="text-decoration: none; ">GitHub</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/juan-pablo-ni%C3%B1o-6064ba64 ">LinkedIn</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="container">
+        <!-- Inicia navbar-->
+        <nav class="mb">
+            <img class="navbar-logo" src="img/Logo.png " height="60px " alt="Logo sitio web">
+            <ul class="nav-link">
+                <li class="navbar-element">
+                    <a class="navbar-link" target="_blank" href="https://github.com/Jupanica " style="text-decoration: none; ">GitHub</a>
+                </li>
+                <li class="navbar-element">
+                    <a class="navbar-link" target="_blank" href="https://www.linkedin.com/in/juan-pablo-ni%C3%B1o-6064ba64 ">LinkedIn</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <!--Finaliza navbar-->
     <!--Inicia header-->
-    <header>
-        <div>
-            <img src="img/Avatar.jpeg " height="100px " alt=" ">
-            <h4>
-                Ing. Industrial
-            </h4>
-            <h1>
-                Hola soy <span>Juan</span>, benvenido!
-            </h1>
-            <a href="https://github.com/Jupanica ">
-            Ver más
+    <div class="header-background">
+        <header id="header__home" class="container mb">
+            <img class="avatar-header" src="img/Avatar.jpeg " alt=" ">
+            <div class="header-detail">
+                <div>
+                    <h4 class="title-job">
+                        Ing. Industrial
+                    </h4>
+                    <h1 class="title-header">
+                        Hola soy <span class="title-header">Juan</span>, benvenido!
+                    </h1>
+                </div>
+
+                <a class="button-main" href="https://github.com/Jupanica ">
+                Ver más
             </a>
-        </div>
-    </header>
+            </div>
+        </header>
+    </div>
     <!--Finaliza header-->
     <!--Inicia sección descripción-->
-    <section style="background-color: aqua; ">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut saepe quos, inventore fuga explicabo ut minus provident ab eveniet? Quidem?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur assumenda, quasi voluptate, magni perspiciatis eligendi dolores aspernatur totam sequi accusamus error. Praesentium quidem, ut rerum eaque et doloribus quis commodi
-            dolor, consequatur quae omnis sequi nesciunt porro. Minima eius fugiat consectetur modi repudiandae a eum nobis dolorem magni eligendi!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo delectus dolorum temporibus, maxime itaque sit.
-        </p>
+    <section>
+        <div class="container">
+            <p class="mb-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut saepe quos, inventore fuga explicabo ut minus provident ab eveniet? Quidem?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur assumenda, quasi voluptate, magni perspiciatis eligendi dolores aspernatur totam sequi accusamus error. Praesentium quidem, ut rerum eaque et doloribus quis commodi
+                dolor, consequatur quae omnis sequi nesciunt porro. Minima eius fugiat consectetur modi repudiandae a eum nobis dolorem magni eligendi!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo delectus dolorum temporibus, maxime itaque sit.
+            </p>
+        </div>
     </section>
     <!--Finaliza sección descripción-->
     <!--Inicia sección habilidades-->
-    <section>
-        <h2>Habilidades</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo optio perferendis sunt, odit id porro voluptatum voluptates commodi molestias corporis.</p>
-        <div>
-            <div style="border: 1px solid #000; width: 20%; ">
-                <div>
-                    <img src="img/react.png " alt=" " height="20px ">
-                    <h4>React</h4>
-                    <span>*1 año</span>
+    <section class="section-design -bg__gray">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <p class="mb-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo optio perferendis sunt, odit id porro voluptatum voluptates commodi molestias corporis.</p>
+            <div class="habilities">
+                <div class="hability-card">
+                    <div>
+                        <div>
+                            <img class="habilty-icon" src="img/react.png " alt=" ">
+                            <h4 class="hability-title">React</h4>
+                            <span class="hability-dot">*</span>
+                            <span class="hability-experience">1 año</span>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, rerum.</p>
+                        </div>
+                        <div>
+                            <span class="hability-tag">React</span>
+                            <span class="hability-tag">React</span>
+                            <span class="hability-tag">React</span>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, rerum.</p>
+                <div class="hability-card">
+                    <div>
+                        <div>
+                            <img class="habilty-icon" src="img/JavaScript.png " alt=" " height="20px ">
+                            <h4 class="hability-title">JavaScript</h4>
+                            <span class="hability-dot">*</span>
+                            <span class="hability-experience">1 año</span>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, rerum.</p>
+                        </div>
+                        <div>
+                            <span class="hability-tag">React</span>
+                            <span class="hability-tag">React</span>
+                            <span class="hability-tag">React</span>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <span>React</span>
-                    <span>React</span>
-                    <span>React</span>
-                </div>
-            </div>
-            <div style="border: 1px solid #000; width: 20%; ">
-                <div>
-                    <img src="img/JavaScript.png " alt=" " height="20px ">
-                    <h4>JavaScript</h4>
-                    <span>*1 año</span>
-                </div>
-                <div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, rerum.</p>
-                </div>
-                <div>
-                    <span>React</span>
-                    <span>React</span>
-                    <span>React</span>
-                </div>
-            </div>
-            <div style="border: 1px solid #000; width: 20%; ">
-                <div>
-                    <img src="img/Claris.png " alt=" " height="30px ">
-                    <h4>Claris Filemaker</h4>
-                    <span>*5 año</span>
-                </div>
-                <div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, rerum.</p>
-                </div>
-                <div>
-                    <span>Claris Filemaker</span>
-                    <span>Claris Filemaker Go</span>
-                    <span>Claris Filemaker Server</span>
+                <div class="hability-card">
+                    <div>
+                        <img class="habilty-icon" src="img/Claris.png " alt=" " height="30px ">
+                        <h4 class="hability-title">Claris Filemaker</h4>
+                        <span class="hability-dot">*</span>
+                        <span class="hability-experience"> 5 años</span>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, rerum.</p>
+                    </div>
+                    <div>
+                        <span class="hability-tag">Claris Filemaker Pro</span>
+                        <span class="hability-tag">Filemaker Go</span>
+                        <span class="hability-tag">Filemaker Server</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!--Finaliza sección habilidades-->
     <!--Inicia sección proyectos-->
-    <section style="background-color: blue; ">
-        <h2>Algunos de mis trabajos</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit nisi error unde commodi, aliquam iste?</p>
-        <div style="border: 1px solid #222; width: 20%; ">
-            <h3>Trabajo 1</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <div>
-                <span>Claris Filemaker</span>
-                <span>Claris Filemaker Go</span>
-                <span>Claris Filemaker Server</span>
+    <section class="section-design -bg__gray">
+        <div class="container">
+            <div class="section-design__center w-50">
+                <h2>Algunos de mis trabajos</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit nisi error unde commodi, aliquam iste?</p>
             </div>
-            <div>
-                <span>Full desing & development</span>
-                <img src="img/feature_graphic_laptop.png " alt=" " width="100% ">
-            </div>
-        </div>
-        <div style="border: 1px solid #222; width: 20%; ">
-            <h3>Trabajo 2</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <div>
-                <span>Claris Filemaker</span>
-                <span>Claris Filemaker Go</span>
-                <span>Claris Filemaker Server</span>
-            </div>
-            <div>
-                <span>Full desing & development</span>
-                <img src="img/feature_graphic_laptop.png " alt=" " width="100% ">
-            </div>
-        </div>
-        <div style="border: 1px solid #222; width: 20%; ">
-            <h3>Trabajo 3</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <div>
-                <span>Claris Filemaker</span>
-                <span>Claris Filemaker Go</span>
-                <span>Claris Filemaker Server</span>
-            </div>
-            <div>
-                <span>Full desing & development</span>
-                <img src="img/feature_graphic_laptop.png " alt=" " width="100% ">
+            <div class="projects">
+                <div class="project-single">
+                    <div class="project-card -bg__salmon">
+                        <h3>Trabajo 1</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <div class="mb">
+                            <span class="project-tag">Filemaker Pro</span>
+                            <span class="project-tag">Filemaker Go</span>
+                            <span class="project-tag">Filemaker Server</span>
+                        </div>
+                        <div>
+                            <span>Full desing & development</span>
+                            <img class="mt" src="img/feature_graphic_laptop.png " alt=" " width="100% ">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-single">
+                    <div class="project-card -bg__blue">
+                        <h3>Trabajo 2</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <div class="mb">
+                            <span class="project-tag">Filemaker Pro</span>
+                            <span class="project-tag">Filemaker Go</span>
+                            <span class="project-tag">Filemaker Server</span>
+                        </div>
+                        <div>
+                            <span>Full desing & development</span>
+                            <img class="mt" src="img/feature_graphic_laptop.png " alt=" " width="100% ">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-single">
+                    <div class="project-card -bg__purple">
+                        <h3>Trabajo 3</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <div class="mb tags-container">
+                            <span class="project-tag">Filemaker</span>
+                            <span class="project-tag">Filemaker Go</span>
+                            <span class="project-tag">Filemaker Server</span>
+                        </div>
+                        <div>
+                            <span>Full desing & development</span>
+                            <img class="mt" src="img/feature_graphic_laptop.png " alt=" " width="100% ">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!--Finaliza sección proyectos-->
     <!--Inicia sección imagen-->
     <section>
-        <img src="img/Dev.jpg " alt=" " width="100% ">
+        <img class="image-full-width" src="img/Dev.jpg " alt=" ">
     </section>
     <!--Finaliza sección imagen-->
     <!--Inicia sección contactenos-->
-    <section style="background-color: chartreuse; ">
-        <h2>Contáctanos</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum eum accusantium beatae similique voluptatem necessitatibus quas omnis reiciendis possimus doloribus officia praesentium.</p>
-        <form action="* ">
-            <input type="text " placeholder="Tu nombre ">
-            <input type="text " placeholder="Tu email ">
-            <textarea name=" " id=" " cols="30 " rows="10 " placeholder="Tu mensaje "></textarea>
-            <button>Enviar</button>
-        </form>
+    <section class="section-design -bg__white">
+        <div div="container">
+            <div class="section-design__center w-50">
+                <h2>Hablemos</h2>
+                <p class="mb-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum eum accusantium beatae similique voluptatem necessitatibus quas omnis reiciendis possimus doloribus officia praesentium.</p>
+            </div>
+            <form action="#" id="contact-form">
+                <div class="from">
+                    <input type="text " placeholder="Tu nombre ">
+                    <input type="text " placeholder="Tu email ">
+                </div>
+                <div class="button-contact">
+                    <textarea name=" " id=" " cols="30 " rows="10 " placeholder="Tu mensaje "></textarea>
+                </div>
+                <div>
+                    <button class="button-main">Enviar</button>
+                </div>
+            </form>
+        </div>
     </section>
     <!--Finaliza sección contactenos-->
     <!--Inicia footer-->
-    <footer>
-        <div>
-            <p>Diseñado por Juan P Niño C.</p>
-        </div>
-        <div>
-            <li>😊</li>
-            <li>👌</li>
-            <li>😒</li>
-            <li>😎</li>
+    <footer class="section-design -bg__blue-light">
+        <div class="container">
+            <div class="footer__container">
+                <p>Diseñado por Juan P Niño C.</p>
+            </div>
+            <div>
+                <li class="icon-list">😊</li>
+                <li class="icon-list">👌</li>
+                <li class="icon-list">😒</li>
+                <li class="icon-list">😎</li>
+            </div>
         </div>
     </footer>
     <!--Finaliza footer-->
